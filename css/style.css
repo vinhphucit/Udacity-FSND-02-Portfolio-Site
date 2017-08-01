@@ -1,0 +1,110 @@
+/* styles for common */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #eeeeee;
+}
+img, embed, object, video {
+	max-width: 100%;
+}
+.container {
+	flex-wrap: wrap;
+}
+.fullwidth-image {
+	width: 100%;
+}
+/* styles for the header content */
+.header {
+    border-bottom: thick solid #7d97ad;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+.header-right {	
+	width: 60%;    
+    float: right;
+	text-align: right;
+	color: #2d3c49;
+}
+.header-left{
+	float: left;
+    width: 40%;
+}
+
+/* styles for the middle content */
+
+.lower-section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item-img {
+
+}
+.product{
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product-left{
+	margin-left: 0px;
+}
+.product-right{
+	margin-right: 0px;
+}
+.middle-product {
+
+}
+
+.description-center{
+	text-align: center;	
+	color: #2d3c49;
+}
+.project-name{
+	font-size: 18px;
+}
+
+.project-link{
+	font-size: 15px;
+}
+
+.featured-work{
+	color: #7d97ad;
+}
+
+/* styles for the footer content */
+.footer{
+	text-align: center;
+	color: #2d3c49;
+	
+}
+/* responsive for Desktop version */
+@media screen and (min-width: 960px){
+	.container {
+		max-width: 960px;
+	    margin-left: auto;
+    	margin-right: auto;
+	}	
+}
+
+/* responsive for Tablet version */
+@media screen and (min-width: 769px){
+	.product{
+		width: 32%;
+	}
+}
+
+/* responsive for Mobile version */
+@media screen and (max-width: 768px){
+	.product{
+		width: 100%;
+	}
+}
